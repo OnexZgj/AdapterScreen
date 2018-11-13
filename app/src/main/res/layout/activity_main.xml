@@ -158,6 +158,15 @@
         android:textSize="18sp"/>
 
 
+    <Button
+        android:id="@+id/btn_am_value_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Value Adapter Activity!"
+        android:textSize="18sp"/>
+
+
+
 
 
 

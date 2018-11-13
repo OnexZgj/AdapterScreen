@@ -26,7 +26,6 @@ public class ScreenAdapterActivity extends AppCompatActivity {
 
         ScreenUtils.adaptScreen4VerticalSlide(this, 360);
 
-
         DisplayMetrics displayMetrics = this.getResources().getDisplayMetrics();
 
         float updateScreenDensity = UiUtils.getScreenDensity();
@@ -36,7 +35,6 @@ public class ScreenAdapterActivity extends AppCompatActivity {
 
         tvAsaDefaultDensity.setText(""+defaultScreenDensityDpi);
         tvAsaUpdateDensity.setText(""+displayMetrics.density);
-
 
         ScreenUtils.cancelAdaptScreen(this);
     }

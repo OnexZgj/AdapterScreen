@@ -17,13 +17,21 @@
         <TextView
             android:layout_width="180dp"
             android:layout_height="match_parent"
-            android:background="#66ff00ee" />
+            android:background="#66ff00ee"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="width : 180dp"/>
 
 
         <TextView
             android:layout_width="180dp"
             android:layout_height="match_parent"
-            android:background="#66ffff" />
+            android:background="#66ffff"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="width : 180dp"/>
 
 
     </LinearLayout>

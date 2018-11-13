@@ -17,7 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ScreenAdapterActivity"></activity>
+        <activity android:name=".ScreenAdapterActivity" />
+        <activity android:name=".ValueAdapterActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.onexzgj.screenutils.ValueAdapterActivity">
+
+    <TextView
+        android:id="@+id/tv_ava_show"
+        android:layout_width="@dimen/tv_width"
+        android:layout_height="wrap_content"
+        android:background="#66ff00ee"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+
+
+</LinearLayout>
